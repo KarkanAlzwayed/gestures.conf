@@ -1,2 +1,5 @@
 # gestures.conf
-This is my gestures.conf for the pantheon desktop using the libinput-gestures library.
+This is my gestures.conf config file for the pantheon desktop using the libinput-gestures library.
+3 fingers swipe to the left, tiles the window to the left, and to the right tiles it to the right. 3 fingers swipe up shows the windows overview and same with the 3 fingers swipe down. 4 fingers swipe up maximizes the window, 4 fingers swipe down un-maximizes the window. 4 fingers swipe left brings the second desktop, 4 fingers swip to the left goes back to the previous desktop.
+This is not set in stone and you can make the gestures the way you want them. This is just how I like my trackpad to function like. I have done all of this with a combination of the libinput-gestures library https://github.com/bulletmark/libinput-gestures (read the installation instructions for your distro because you are going to need two more packages to install, wmctrl and xdotool), gestures app https://github.com/cunidev/gestures . If you can't get the gestures app for some reason, then just copy this .conf file and paste it into your ~/.config directory and it should work.
+for detailed instructions, watch this video https://youtu.be/suPJmIm-tNI
